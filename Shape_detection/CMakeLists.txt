@@ -21,6 +21,12 @@ if(CGAL_FOUND)
       "region_growing_on_point_set_2.cpp")
   endif()
 
+  set(directory /usr/local/Cellar/cgal-examples/Shape_detection)
+  install(DIRECTORY DESTINATION ${directory})
+  install(DIRECTORY DESTINATION ${directory}/data)
+  install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/point_set_2.xyz DESTINATION ${directory}/data)
+  install(TARGETS region_growing_on_point_set_2 DESTINATION ${directory})
+
 else()
   message(WARNING 
   "This program requires the CGAL library, and will not be compiled.")
