@@ -1,4 +1,3 @@
+# cgal-brew
 
-# cgal-examples
-
-Precompiled CGAL examples.
+All CGAL homebrew formulas.
