@@ -1,3 +1,3 @@
 # cgal-brew
 
-All CGAL homebrew formulas.
+All CGAL related homebrew formulas and dependencies.
